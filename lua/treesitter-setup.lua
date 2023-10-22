@@ -18,7 +18,9 @@ vim.defer_fn(function()
       'vim', 
       'bash',
       'markdown',
-      'solidity'
+      'markdown_inline',
+      'solidity',
+      'gitignore'
     },
 
     -- Autoinstall languages that are not installed. Defaults to false (but you can change for yourself!)

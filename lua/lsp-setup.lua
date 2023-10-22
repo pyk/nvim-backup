@@ -81,6 +81,19 @@ local servers = {
       telemetry = { enable = false },
     },
   },
+
+  -- markdown
+  denols = {
+    filetypes = {
+      "javascript",
+      "javascriptreact",
+      "javascript.jsx",
+      "typescript",
+      "typescriptreact",
+      "typescript.tsx",
+      "markdown"
+    }
+  },
 }
 
 -- Setup neovim lua configuration
