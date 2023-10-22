@@ -41,6 +41,7 @@ vim.cmd([[
 
   highlight @preproc.solidity ctermfg=34
   highlight @include.solidity ctermfg=34
+  highlight @constructor.solidity ctermfg=34
   highlight @keyword.solidity ctermfg=34
   highlight @keyword.function.solidity ctermfg=34
   highlight @type.builtin.solidity ctermfg=34
@@ -61,4 +62,9 @@ vim.cmd([[
   highlight @type.qualifier.solidity ctermfg=118
   highlight @parameter.solidity ctermfg=118
   highlight @operator.solidity ctermfg=118
+]])
+
+-- Identation
+vim.cmd([[
+  highlight @ibl.indent.char.1 ctermfg=234
 ]])
