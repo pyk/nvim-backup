@@ -1,3 +1,6 @@
+-- vim.cmd [[colorscheme tokyonight-night]]
+
+
 -- Color table:
 -- https://upload.wikimedia.org/wikipedia/commons/1/15/Xterm_256color_chart.svg
 
@@ -6,8 +9,6 @@ vim.cmd([[
   highlight LineNr ctermfg=240
   highlight CursorLine cterm=none ctermbg=235
   highlight CursorLineNr cterm=none ctermbg=235 ctermfg=white
-
-
 ]])
 
 -- Git
@@ -29,4 +30,35 @@ vim.cmd([[
   highlight @punctuation.delimiter.markdown   ctermfg=240
   highlight @label.markdown   ctermfg=240
   highlight @text.literal.block.markdown   ctermfg=47
+]])
+
+-- Solidity
+vim.cmd([[
+  highlight @comment.solidity ctermfg=240
+  highlight @comment.documentation.solidity ctermfg=240
+  highlight @punctuation.bracket.solidity ctermfg=240
+  highlight @punctuation.delimiter.solidity ctermfg=240
+
+  highlight @preproc.solidity ctermfg=34
+  highlight @include.solidity ctermfg=34
+  highlight @keyword.solidity ctermfg=34
+  highlight @keyword.function.solidity ctermfg=34
+  highlight @type.builtin.solidity ctermfg=34
+
+  highlight @string.special.solidity ctermfg=46
+  highlight @variable.solidity ctermfg=46
+  highlight @type.solidity ctermfg=46
+  highlight @string.solidity ctermfg=46
+  highlight @method.call.solidity ctermfg=46
+  highlight @function.call.solidity ctermfg=46
+  highlight @keyword.operator.solidity ctermfg=46
+
+  highlight @text.underline.solidity cterm=none
+
+  highlight @function.solidity ctermfg=118
+  highlight @number.solidity ctermfg=118
+  highlight @field.solidity ctermfg=118
+  highlight @type.qualifier.solidity ctermfg=118
+  highlight @parameter.solidity ctermfg=118
+  highlight @operator.solidity ctermfg=118
 ]])
