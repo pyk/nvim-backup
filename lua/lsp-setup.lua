@@ -94,6 +94,9 @@ local servers = {
       "markdown"
     }
   },
+
+  -- Solidity
+  solidity_ls_nomicfoundation = {}
 }
 
 -- Setup neovim lua configuration
