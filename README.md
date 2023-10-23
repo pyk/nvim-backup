@@ -1,18 +1,24 @@
 My personal [neovim](https://neovim.io/) configurations.
 
-Install using the following command:
+Install neovim using the following command:
 
+```sh
+brew install neovim
 ```
-git clone https://github.com/pyk/nvim.git ~/.config/nvim
+
+Setup configuration using the following command:
+
+```sh
+git clone git@github.com:pyk/nvim.git ~/.config/nvim
+```
+
+Install required dependencies using the following command:
+
+```sh
+npm install @nomicfoundation/solidity-language-server -g
 ```
 
 This configuration support the following language servers:
 
 - Lua via `lua_ls`
 - Markdown via `denols`
-
-Solidity need to install the following package:
-
-```sh
-npm install @nomicfoundation/solidity-language-server -g
-```
