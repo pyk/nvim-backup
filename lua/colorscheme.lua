@@ -66,5 +66,28 @@ vim.cmd([[
 
 -- Identation
 vim.cmd([[
-  highlight @ibl.indent.char.1 ctermfg=234
+  highlight @ibl.whitespace.char.1 ctermfg=red
+  highlight @ibl.indent.char.1 ctermfg=238
+  highlight @ibl.indent.char.2 ctermfg=238
+  highlight @ibl.indent.char.3 ctermfg=238
+  highlight @ibl.indent.char.4 ctermfg=238
+  highlight @ibl.indent.char.5 ctermfg=238
+  highlight @ibl.indent.char.6 ctermfg=238
+  highlight @ibl.scope.char.1 ctermfg=240
+  highlight @ibl.scope.underline.1 cterm=none
+]])
+
+-- TOML
+vim.cmd([[
+  highlight @comment.toml ctermfg=240
+  highlight @punctuation.bracket.toml ctermfg=240
+  highlight @punctuation.delimiter.toml ctermfg=240
+
+  highlight @string.toml ctermfg=255
+
+  highlight @type.toml ctermfg=34
+
+  highlight @property.toml ctermfg=46
+
+  highlight @operator.toml ctermfg=118
 ]])

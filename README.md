@@ -16,6 +16,9 @@ Install required dependencies using the following command:
 
 ```sh
 npm install @nomicfoundation/solidity-language-server -g
+
+# TOML
+brew install taplo
 ```
 
 This configuration support the following language servers:

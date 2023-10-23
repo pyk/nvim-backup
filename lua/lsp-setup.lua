@@ -96,7 +96,10 @@ local servers = {
   },
 
   -- Solidity
-  solidity_ls_nomicfoundation = {}
+  solidity_ls_nomicfoundation = {},
+
+  -- TOML
+  taplo = {}
 }
 
 -- Setup neovim lua configuration
