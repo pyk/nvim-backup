@@ -91,3 +91,16 @@ vim.cmd([[
 
   highlight @operator.toml ctermfg=118
 ]])
+
+-- JSON
+vim.cmd([[
+  highlight @comment.toml ctermfg=240
+  highlight @punctuation.bracket.json ctermfg=240
+  highlight @punctuation.delimiter.json ctermfg=240
+
+  highlight @label.json ctermfg=255
+
+  highlight @string.json ctermfg=34
+  highlight @number.json ctermfg=34
+  highlight @boolean.json ctermfg=34
+]])

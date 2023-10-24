@@ -21,7 +21,8 @@ vim.defer_fn(function()
       'markdown_inline',
       'solidity',
       'gitignore',
-      'toml'
+      'toml',
+      'json'
     },
 
     -- Autoinstall languages that are not installed. Defaults to false (but you can change for yourself!)
