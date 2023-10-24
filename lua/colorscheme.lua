@@ -39,20 +39,12 @@ vim.cmd([[
   highlight @punctuation.bracket.solidity ctermfg=240
   highlight @punctuation.delimiter.solidity ctermfg=240
 
-  highlight @preproc.solidity ctermfg=34
-  highlight @include.solidity ctermfg=34
-  highlight @constructor.solidity ctermfg=34
-  highlight @keyword.solidity ctermfg=34
-  highlight @keyword.function.solidity ctermfg=34
-  highlight @type.builtin.solidity ctermfg=34
-
   highlight @string.special.solidity ctermfg=46
-  highlight @variable.solidity ctermfg=46
   highlight @type.solidity ctermfg=46
-  highlight @string.solidity ctermfg=46
   highlight @method.call.solidity ctermfg=46
   highlight @function.call.solidity ctermfg=46
   highlight @keyword.operator.solidity ctermfg=46
+  highlight @string.solidity ctermfg=46
 
   highlight @text.underline.solidity cterm=none
 
@@ -60,8 +52,20 @@ vim.cmd([[
   highlight @number.solidity ctermfg=118
   highlight @field.solidity ctermfg=118
   highlight @type.qualifier.solidity ctermfg=118
-  highlight @parameter.solidity ctermfg=118
   highlight @operator.solidity ctermfg=118
+
+
+  highlight @preproc.solidity ctermfg=255
+  highlight @include.solidity ctermfg=255
+  highlight @keyword.solidity ctermfg=255
+  highlight @type.builtin.solidity ctermfg=255
+
+  highlight @string.special.solidity ctermfg=34
+  highlight @variable.solidity ctermfg=34
+  highlight @parameter.solidity ctermfg=34
+
+  highlight @constructor.solidity ctermfg=34
+  highlight @keyword.function.solidity ctermfg=34
 ]])
 
 -- Identation
