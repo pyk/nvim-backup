@@ -39,7 +39,6 @@ vim.cmd([[
   highlight @punctuation.bracket.solidity ctermfg=240
   highlight @punctuation.delimiter.solidity ctermfg=240
 
-  highlight @string.special.solidity ctermfg=46
   highlight @type.solidity ctermfg=46
   highlight @method.call.solidity ctermfg=46
   highlight @function.call.solidity ctermfg=46
@@ -107,4 +106,41 @@ vim.cmd([[
   highlight @string.json ctermfg=34
   highlight @number.json ctermfg=34
   highlight @boolean.json ctermfg=34
+]])
+
+-- Javascript
+vim.cmd([[
+  highlight @preproc.javascript ctermfg=255
+  highlight @include.javascript ctermfg=255
+  highlight @keyword.javascript ctermfg=255
+  highlight @type.builtin.javascript ctermfg=255
+
+  highlight @comment.javascript ctermfg=240
+  highlight @comment.documentation.javascript ctermfg=240
+  highlight @punctuation.bracket.javascript ctermfg=240
+  highlight @punctuation.delimiter.javascript ctermfg=240
+
+  highlight @type.javascript ctermfg=46
+  highlight @method.call.javascript ctermfg=46
+  highlight @function.call.javascript ctermfg=46
+  highlight @keyword.operator.javascript ctermfg=46
+  highlight @string.javascript ctermfg=46
+  highlight @property.javascript ctermfg=46
+  highlight @lsp.type.property.javascript ctermfg=46
+  highlight @lsp.type.function.javascript ctermfg=46
+
+  highlight @text.underline.javascript cterm=none
+
+  highlight @function.javascript ctermfg=118
+  highlight @number.javascript ctermfg=118
+  highlight @field.javascript ctermfg=118
+  highlight @type.qualifier.javascript ctermfg=118
+  highlight @operator.javascript ctermfg=118
+
+  highlight @string.special.javascript ctermfg=34
+  highlight @variable.javascript ctermfg=34
+  highlight @parameter.javascript ctermfg=34
+
+  highlight @constructor.javascript ctermfg=34
+  highlight @keyword.function.javascript ctermfg=34
 ]])
